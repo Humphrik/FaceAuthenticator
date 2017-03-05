@@ -9,7 +9,7 @@ eye_cascade = cv2.CascadeClassifier('./haarcascades/haarcascade_eye.xml')
 
 def main():
     number = 0
-    validUsers = ["./ken1.jpg", "./User0.jpg","./User1.jpg","./User2.jpg", "./User3.jpg", "./User4.jpg", "./User5.jpg", "./User6.jpg"]
+    validUsers = ["./User0.jpg","./User1.jpg","./User2.jpg", "./User3.jpg", "./User4.jpg", "./User5.jpg", "./User6.jpg"]
     similarities = []
     camera = cv2.VideoCapture(0)
     orb = cv2.ORB_create()
